@@ -1087,4 +1087,4 @@ else:
 
 # Rodapé
 st.markdown("---")
-st.caption("Feito com ❤️ usando Python, Streamlit e Plotly | Análise avançada de dados do Spotify")
+st.caption("Feito com 💙 Por: Henrique Sousa Sandre - usando Python, Streamlit e Plotly | Análise avançada de dados do Spotify")
