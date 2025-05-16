@@ -1,9 +1,0 @@
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-python-dateutil
-pycountry
-plotly==5.18.0
