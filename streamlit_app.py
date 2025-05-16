@@ -16,6 +16,15 @@ from analises_avancadas import (
     visualizar_recomendacoes
 )
 
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Forçar instalação se necessário
+try:
+    import plotly
+except ImportError:
+    install("plotly==5.18.0")
+
 # Configuração da página
 st.set_page_config(
     page_title="Spotify Analytics Avançado",
