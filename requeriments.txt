@@ -7,3 +7,4 @@ seaborn
 scikit-learn
 python-dateutil
 pycountry
+plotly_express
