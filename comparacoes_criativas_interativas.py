@@ -340,7 +340,7 @@ def adicionar_comparacoes_ao_painel(df):
         # Botão para atualizar as comparações de viagem
         if st.button("🔄 Mostrar outras cidades", key=f"refresh_viagens_{st.session_state.refresh_count}"):
             st.session_state.refresh_count += 1
-            st.experimental_rerun()
+            st.rerun()
         
         # Exibe as curiosidades
         st.subheader("🎮 Outras Curiosidades")
@@ -350,7 +350,7 @@ def adicionar_comparacoes_ao_painel(df):
         # Botão para atualizar as curiosidades
         if st.button("🔄 Mostrar outras curiosidades", key=f"refresh_curiosidades_{st.session_state.refresh_count}"):
             st.session_state.refresh_count += 1
-            st.experimental_rerun()
+            st.rerun()
             
     else:
         # Se o usuário não informou a cidade ou quer apenas curiosidades
@@ -365,4 +365,4 @@ def adicionar_comparacoes_ao_painel(df):
         # Botão para atualizar as curiosidades
         if st.button("🔄 Mostrar outras curiosidades", key=f"refresh_curiosidades_{st.session_state.refresh_count}"):
             st.session_state.refresh_count += 1
-            st.experimental_rerun()
+            st.rerun()
